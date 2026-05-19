@@ -1,13 +1,12 @@
 const express = require('express')
 const router = express.Router()
-const fs = require('fs')
 const path = require('path')
+const { readJson } = require('../lib/jsonStore')
 
 const dataPath = path.join(__dirname, '../data/organizations.json')
 
 router.get('/', (req, res) => {
-  const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
-  res.json(data)
+  res.json(readJson(dataPath))
 })
 
 module.exports = router

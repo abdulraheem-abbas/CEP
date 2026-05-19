@@ -300,12 +300,16 @@ app.post('/api/summarize', async (req, res) => {
   res.json({ summary: summary || (isAr ? 'لا يوجد ملخص متاح.' : 'No summary available.'), poweredBy: 'fallback' })
 })
 
-app.get('/', (req, res) => {
+app.get(['/', '/api'], (req, res) => {
   res.json({ message: 'Forsa API is running', version: '2.0.0', gemini: geminiAvailable })
 })
 
-app.listen(PORT, () => {
-  console.log(`\n🌟 Forsa backend running on http://localhost:${PORT}`)
-  console.log(`   /api/verify  →  ${geminiAvailable ? 'Gemini 2.5 Flash' : 'Rule-based fallback'}`)
-  console.log(`   /api/chat    →  ${geminiAvailable ? 'Gemini 2.5 Flash Lite' : 'Rule-based fallback'}`)
-})
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`\n🌟 Forsa backend running on http://localhost:${PORT}`)
+    console.log(`   /api/verify  →  ${geminiAvailable ? 'Gemini 2.5 Flash' : 'Rule-based fallback'}`)
+    console.log(`   /api/chat    →  ${geminiAvailable ? 'Gemini 2.5 Flash Lite' : 'Rule-based fallback'}`)
+  })
+}
+
+module.exports = app

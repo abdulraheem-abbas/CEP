@@ -4,9 +4,14 @@
   "description": "Forsa — Soft skills should not be a privilege. A platform for public school students in Egypt and Yemen.",
   "scripts": {
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "npm run build --prefix frontend",
+    "vercel-build": "npm run build --prefix frontend",
     "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"blue,green\" \"cd backend && npm start\" \"cd frontend && npm run dev\"",
     "dev:backend": "cd backend && npm start",
     "dev:frontend": "cd frontend && npm run dev"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

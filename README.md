@@ -154,6 +154,40 @@ Or use the **Admin Dashboard** at `/admin` to add, edit, and delete items throug
 
 ---
 
+## Deploying to Vercel
+
+This repo is configured for a single Vercel project:
+
+- Frontend: Vite builds to `frontend/dist`
+- API: Express runs as Vercel serverless functions from `api/`
+- Routing: `/api/*` goes to the backend, all other routes serve the React app
+
+### Vercel Settings
+
+Vercel reads these from `vercel.json`, so the defaults should work:
+
+| Setting | Value |
+|---------|-------|
+| Install Command | `npm install && npm install --prefix backend && npm install --prefix frontend` |
+| Build Command | `npm run vercel-build` |
+| Output Directory | `frontend/dist` |
+
+### Environment Variables
+
+Add this optional variable in Vercel if you want Gemini-powered verification, chat, and summaries:
+
+```bash
+GEMINI_API_KEY=your_key_here
+```
+
+Without `GEMINI_API_KEY`, the deployed app uses the built-in rule-based fallback.
+
+### Data Storage Note
+
+The JSON files in `backend/data/` are bundled as starter data. On Vercel, admin edits are stored in temporary function storage so the UI does not crash, but those edits are not durable across cold starts or redeploys. Use a database such as Postgres, SQLite/Turso, or Supabase for production persistence.
+
+---
+
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -184,8 +218,8 @@ Or use the **Admin Dashboard** at `/admin` to add, edit, and delete items throug
 5. **PDF Downloads** — Generate and serve curriculum PDFs from the backend
 6. **Email Notifications** — Notify teachers when new curriculum materials are available
 7. **User Progress Tracking** — Track which courses/opportunities students have saved or applied to
-8. **Database** — Replace JSON file storage with PostgreSQL or SQLite for production
-9. **Deployment** — Deploy to Vercel (frontend) + Railway or Render (backend)
+8. **Database** — Replace JSON file storage with PostgreSQL, SQLite/Turso, or Supabase for production
+9. **Deployment** — Add production monitoring, analytics, and custom domain configuration
 10. **Analytics** — Track which resources students access most
 
 ---

@@ -1,12 +1,12 @@
 const express = require('express')
 const router = express.Router()
-const fs = require('fs')
 const path = require('path')
+const { readJson, writeJson } = require('../lib/jsonStore')
 
 const dataPath = path.join(__dirname, '../data/opportunities.json')
 
-const readData = () => JSON.parse(fs.readFileSync(dataPath, 'utf8'))
-const writeData = (data) => fs.writeFileSync(dataPath, JSON.stringify(data, null, 2))
+const readData = () => readJson(dataPath)
+const writeData = (data) => writeJson(dataPath, data)
 
 router.get('/', (req, res) => {
   res.json(readData())
