@@ -1,0 +1,14 @@
+{
+  "name": "forsa-platform",
+  "version": "1.0.0",
+  "description": "Forsa — Soft skills should not be a privilege. A platform for public school students in Egypt and Yemen.",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"blue,green\" \"cd backend && npm start\" \"cd frontend && npm run dev\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

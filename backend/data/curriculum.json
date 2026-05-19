@@ -1,0 +1,430 @@
+[
+  {
+    "id": 1,
+    "week": 1,
+    "title": "Confidence and Self-Awareness",
+    "title_ar": "الثقة بالنفس والوعي الذاتي",
+    "objective": "Help students identify their strengths, values, and areas for growth while building a foundation of self-confidence and positive self-image.",
+    "objective_ar": "مساعدة الطلاب في التعرف على نقاط قوتهم وقيمهم ومجالات نموهم، مع بناء أساس من الثقة بالنفس وصورة ذاتية إيجابية.",
+    "sessionOutline": [
+      "Opening circle: each student shares one word that describes them today",
+      "Mini-lesson: What is self-awareness and why does it shape everything we do?",
+      "Activity: Strengths Map — students draw a visual map of their talents and proud moments",
+      "Group share: each student presents one strength to the class",
+      "Closing reflection: journal prompt"
+    ],
+    "sessionOutline_ar": [
+      "دائرة الافتتاح: يشارك كل طالب كلمة واحدة تصفه اليوم",
+      "درس قصير: ما هو الوعي الذاتي ولماذا يؤثر في كل ما نفعله؟",
+      "النشاط: خريطة نقاط القوة — يرسم الطلاب خريطة بصرية لمواهبهم ولحظاتهم الفخر",
+      "المشاركة الجماعية: يعرض كل طالب نقطة قوة واحدة على الفصل",
+      "التأمل الختامي: سؤال في المذكرة"
+    ],
+    "activities": [
+      {
+        "name": "Strengths Map",
+        "name_ar": "خريطة نقاط القوة",
+        "description": "Students draw a visual map of their strengths, values, hobbies, and proudest moments. They share one item with the class.",
+        "description_ar": "يرسم الطلاب خريطة بصرية لنقاط قوتهم وقيمهم وهواياتهم ولحظاتهم الفخر، ثم يشاركون عنصراً واحداً مع الفصل.",
+        "duration": "20 minutes",
+        "materials": ["blank paper", "colored pens or pencils"]
+      },
+      {
+        "name": "Confidence Walk",
+        "name_ar": "مشية الثقة",
+        "description": "Students practice walking into a room with confidence, making eye contact, and introducing themselves boldly to a partner.",
+        "description_ar": "يتدرب الطلاب على الدخول إلى غرفة بثقة، والتواصل البصري، وتقديم أنفسهم بجرأة لأحد الزملاء.",
+        "duration": "15 minutes",
+        "materials": ["open space in classroom"]
+      }
+    ],
+    "materials": ["Blank paper", "Colored pens or pencils", "Reflection notebook"],
+    "materials_ar": ["ورق أبيض", "أقلام ملونة", "مذكرة للتأمل"],
+    "reflectionQuestions": [
+      "What is one strength you discovered or remembered today?",
+      "What makes you feel most confident?",
+      "What is one thing you want to improve this term?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما نقطة قوة اكتشفتها أو تذكرتها اليوم؟",
+      "ما الذي يجعلك تشعر بالثقة أكثر؟",
+      "ما الشيء الذي تريد تحسينه هذا الفصل؟"
+    ]
+  },
+  {
+    "id": 2,
+    "week": 2,
+    "title": "Communication and Active Listening",
+    "title_ar": "التواصل والاستماع النشط",
+    "objective": "Develop students' ability to communicate clearly and listen actively, empathetically, and without judgment.",
+    "objective_ar": "تطوير قدرة الطلاب على التواصل بوضوح والاستماع بنشاط وتعاطف ودون أحكام مسبقة.",
+    "sessionOutline": [
+      "Opening: silent listening exercise — students close eyes and identify all sounds around them for 2 minutes",
+      "Discussion: what makes communication effective or break down?",
+      "Activity: Broken telephone with a twist — analyze what went wrong and why",
+      "Role play: active listening in pairs — one speaks, one listens and reflects",
+      "Closing reflection"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: تمرين الاستماع الصامت — يغمض الطلاب أعينهم ويحددون كل الأصوات حولهم لمدة دقيقتين",
+      "نقاش: ما الذي يجعل التواصل فعّالاً أو يُعيق تدفقه؟",
+      "النشاط: التلفون المعطوب بتطوير — نحلل ما الذي أخطأ ولماذا",
+      "لعب الأدوار: الاستماع النشط في أزواج — أحدهم يتحدث والآخر يستمع ثم يعكس ما سمع",
+      "التأمل الختامي"
+    ],
+    "activities": [
+      {
+        "name": "Active Listening Partners",
+        "name_ar": "شركاء الاستماع النشط",
+        "description": "In pairs, one student shares a 2-minute story while the other listens without interrupting. The listener then reflects back what they heard.",
+        "description_ar": "في أزواج، يشارك أحد الطلاب قصة لمدة دقيقتين بينما يستمع الآخر دون مقاطعة، ثم يعكس المستمع ما سمعه.",
+        "duration": "20 minutes",
+        "materials": ["none — just pairs of students"]
+      },
+      {
+        "name": "Communication Styles Quiz",
+        "name_ar": "اختبار أساليب التواصل",
+        "description": "Students complete a short quiz to identify whether they are passive, assertive, or aggressive communicators.",
+        "description_ar": "يكمل الطلاب اختباراً قصيراً لمعرفة ما إذا كانوا يميلون إلى أسلوب التواصل السلبي أو الحازم أو العدواني.",
+        "duration": "15 minutes",
+        "materials": ["printed quiz sheets", "pens"]
+      }
+    ],
+    "materials": ["Printed quiz sheets", "Pens", "Reflection notebook"],
+    "materials_ar": ["أوراق الاختبار المطبوعة", "أقلام", "مذكرة للتأمل"],
+    "reflectionQuestions": [
+      "What did you learn about your communication style today?",
+      "When was the last time you felt truly listened to? How did it feel?",
+      "What is one thing you can do differently to become a better listener?"
+    ],
+    "reflectionQuestions_ar": [
+      "ماذا تعلمت عن أسلوبك في التواصل اليوم؟",
+      "متى كانت آخر مرة شعرت فيها أن أحداً استمع إليك فعلاً؟ كيف كان ذلك؟",
+      "ما شيء واحد يمكنك تغييره لتصبح مستمعاً أفضل؟"
+    ]
+  },
+  {
+    "id": 3,
+    "week": 3,
+    "title": "Public Speaking and Storytelling",
+    "title_ar": "الخطابة العامة ورواية القصص",
+    "objective": "Build students' confidence in public speaking by connecting it to personal storytelling and authentic expression.",
+    "objective_ar": "بناء ثقة الطلاب في التحدث أمام الجمهور من خلال ربطه برواية القصص الشخصية والتعبير الأصيل.",
+    "sessionOutline": [
+      "Opening: watch a 3-minute TED talk excerpt (can be read aloud if no projector)",
+      "Discussion: what made the speaker effective? What did they do well?",
+      "Activity: Two Truths and a Lie — practice speaking comfortably in front of peers",
+      "Mini-lesson: the structure of a good story (beginning, conflict, resolution, lesson)",
+      "Activity: students prepare and tell a 2-minute personal story",
+      "Closing feedback circle: one positive observation per speaker"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: مشاهدة مقطع TED لمدة 3 دقائق (أو قراءته بصوت عالٍ إذا لم يتوفر عارض)",
+      "نقاش: ما الذي جعل المتحدث مؤثراً؟ ما الذي فعله بشكل جيد؟",
+      "النشاط: حقيقتان وكذبة — التدرب على التحدث بارتياح أمام الزملاء",
+      "درس قصير: بنية القصة الجيدة (البداية، الصراع، الحل، الدرس)",
+      "النشاط: يحضّر الطلاب ويروون قصة شخصية لمدة دقيقتين",
+      "دائرة التغذية الراجعة الختامية: ملاحظة إيجابية واحدة لكل متحدث"
+    ],
+    "activities": [
+      {
+        "name": "Personal Story Time",
+        "name_ar": "وقت القصة الشخصية",
+        "description": "Students prepare and share a 2-minute story about a challenge they faced and what they learned. Teacher models first with their own story.",
+        "description_ar": "يحضّر الطلاب ويشاركون قصة لمدة دقيقتين عن تحدٍ واجهوه وما تعلموه منه. يبدأ المعلم بنمذجة قصته الخاصة.",
+        "duration": "30 minutes",
+        "materials": ["preparation cards", "timer"]
+      },
+      {
+        "name": "Voice Modulation Practice",
+        "name_ar": "تمارين تعديل الصوت",
+        "description": "Students repeat a sentence at different speeds, volumes, and emotional tones.",
+        "description_ar": "يتدرب الطلاب على التحدث بسرعات وأحجام صوت ونبرات عاطفية مختلفة.",
+        "duration": "10 minutes",
+        "materials": ["sentence prompt cards"]
+      }
+    ],
+    "materials": ["Preparation cards", "Timer", "Sentence prompt cards"],
+    "materials_ar": ["بطاقات تحضير القصة", "مؤقت", "بطاقات جمل التدريب"],
+    "reflectionQuestions": [
+      "What was the hardest part of speaking in front of others today?",
+      "What storytelling technique will you try to use more?",
+      "Who is a public speaker you admire and what makes them effective?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما أصعب جانب في التحدث أمام الآخرين اليوم؟",
+      "ما أسلوب سرد القصص الذي ستحاول استخدامه أكثر؟",
+      "من هو المتحدث العام الذي تعجب به ولماذا هو مؤثر؟"
+    ]
+  },
+  {
+    "id": 4,
+    "week": 4,
+    "title": "Teamwork and Cooperation",
+    "title_ar": "العمل الجماعي والتعاون",
+    "objective": "Help students develop collaboration skills, understand team roles, and practice constructive conflict resolution.",
+    "objective_ar": "مساعدة الطلاب على تطوير مهارات التعاون، وفهم أدوار الفريق، والتدرب على حل النزاعات بشكل بناء.",
+    "sessionOutline": [
+      "Opening: team trivia challenge — groups answer questions together, fastest team wins",
+      "Discussion: what makes a team succeed or fail?",
+      "Activity: Tower Building Challenge — groups build the tallest freestanding structure from paper",
+      "Debrief: what role did each person play? What could have been better?",
+      "Mini-lesson: five team roles and how conflict arises and can be resolved",
+      "Closing reflection"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: مسابقة معلومات عامة جماعية — تتنافس المجموعات على الإجابة الأسرع",
+      "نقاش: ما الذي يجعل الفريق ناجحاً أو يتفكك؟",
+      "النشاط: تحدي بناء البرج — تبني المجموعات أطول هيكل قائم من الورق",
+      "التحليل: ما الدور الذي أداه كل شخص؟ ما الذي كان يمكن تحسينه؟",
+      "درس قصير: أدوار الفريق الخمسة وكيف تنشأ النزاعات وكيف يمكن حلها",
+      "التأمل الختامي"
+    ],
+    "activities": [
+      {
+        "name": "Tower Building Challenge",
+        "name_ar": "تحدي بناء البرج",
+        "description": "Groups of 4–5 compete to build the tallest freestanding tower using only newspaper and tape in 15 minutes.",
+        "description_ar": "تتنافس مجموعات من 4-5 أفراد لبناء أطول برج قائم باستخدام الورق فقط خلال 15 دقيقة، ثم تتأمل التواصل والأدوار وما نجح.",
+        "duration": "25 minutes",
+        "materials": ["newspaper or A4 paper", "masking tape", "ruler"]
+      },
+      {
+        "name": "Team Roles Mapping",
+        "name_ar": "رسم خريطة أدوار الفريق",
+        "description": "Students read descriptions of five team roles and identify which fits them best.",
+        "description_ar": "يقرأ الطلاب أوصاف أدوار الفريق الخمسة ويحددون الدور الذي يناسبهم أكثر.",
+        "duration": "15 minutes",
+        "materials": ["role description cards"]
+      }
+    ],
+    "materials": ["Newspaper or A4 paper", "Masking tape", "Ruler", "Team role cards"],
+    "materials_ar": ["جريدة أو ورق A4", "شريط لاصق", "مسطرة", "بطاقات أدوار الفريق"],
+    "reflectionQuestions": [
+      "What role did you naturally take in today's team activity?",
+      "What would have made your team work better together?",
+      "How can you be a better team member in your classroom and community?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما الدور الذي قمت به بشكل طبيعي في نشاط الفريق اليوم؟",
+      "ما الذي كان يمكن أن يجعل فريقك يعمل بشكل أفضل؟",
+      "كيف يمكنك أن تكون عضواً أفضل في الفريق في فصلك أو مجتمعك؟"
+    ]
+  },
+  {
+    "id": 5,
+    "week": 5,
+    "title": "Critical Thinking and Problem Solving",
+    "title_ar": "التفكير النقدي وحل المشكلات",
+    "objective": "Teach students structured approaches to analysis, evidence evaluation, and creative problem solving.",
+    "objective_ar": "تعليم الطلاب مناهج منظمة للتحليل وتقييم الأدلة وحل المشكلات بشكل إبداعي.",
+    "sessionOutline": [
+      "Opening: spot the logical fallacy — students analyze three short statements",
+      "Mini-lesson: the 5 Whys technique for finding root causes",
+      "Activity: apply the 5 Whys to a real community problem",
+      "Activity: Fake News Detective — students analyze 3 headlines for credibility",
+      "Group challenge: design a solution to a local school problem",
+      "Presentations and peer feedback"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: اكتشف المغالطة المنطقية — يحلل الطلاب ثلاث عبارات قصيرة",
+      "درس قصير: تقنية السؤال الخمسي في إيجاد جذور المشكلات",
+      "النشاط: تطبيق السؤال الخمسي على مشكلة مجتمعية حقيقية",
+      "النشاط: محقق الأخبار الزائفة — يحلل الطلاب 3 عناوين إخبارية للمصداقية",
+      "تحدي المجموعة: تصميم حل لمشكلة مدرسية محلية",
+      "عروض وتغذية راجعة"
+    ],
+    "activities": [
+      {
+        "name": "The 5 Whys Exercise",
+        "name_ar": "تمرين السؤال الخمسي",
+        "description": "Students take a real problem and ask 'why' five times to uncover the root cause.",
+        "description_ar": "يأخذ الطلاب مشكلة حقيقية (مثل: لماذا يتسرب الطلاب من المدرسة؟) ويسألون 'لماذا' خمس مرات للكشف عن السبب الجذري لا مجرد الأعراض.",
+        "duration": "20 minutes",
+        "materials": ["problem prompt cards", "whiteboard or flip chart"]
+      },
+      {
+        "name": "Fake News Detective",
+        "name_ar": "محقق الأخبار الزائفة",
+        "description": "Students analyze 3 printed news headlines — one real, one misleading, one false — and explain their reasoning.",
+        "description_ar": "يحلل الطلاب 3 عناوين إخبارية مطبوعة — حقيقي ومضلل وكاذب — ويشرحون استدلالهم باستخدام معايير التفكير النقدي.",
+        "duration": "15 minutes",
+        "materials": ["printed headline cards", "analysis worksheet"]
+      }
+    ],
+    "materials": ["Problem prompt cards", "Whiteboard or flip chart", "Printed headline cards", "Analysis worksheets"],
+    "materials_ar": ["بطاقات المشكلات", "لوح أبيض أو ورق كبير", "بطاقات العناوين الإخبارية المطبوعة", "أوراق التحليل"],
+    "reflectionQuestions": [
+      "What is the difference between an opinion and an evidence-based argument?",
+      "What problem in your community do you most want to solve?",
+      "What new thinking tool will you try to use this week outside school?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما الفرق بين الرأي والحجة القائمة على أدلة؟",
+      "ما مشكلة في مجتمعك تريد حلها أكثر من غيرها؟",
+      "ما أداة تفكير جديدة ستحاول استخدامها هذا الأسبوع خارج المدرسة؟"
+    ]
+  },
+  {
+    "id": 6,
+    "week": 6,
+    "title": "Leadership and Initiative",
+    "title_ar": "القيادة والمبادرة",
+    "objective": "Expand students' understanding of leadership beyond formal titles, developing initiative, responsibility, and the courage to act.",
+    "objective_ar": "توسيع فهم الطلاب للقيادة لتتجاوز الألقاب الرسمية، وتنمية المبادرة والمسؤولية وشجاعة التصرف.",
+    "sessionOutline": [
+      "Opening: who is a leader you admire outside of politics? Why?",
+      "Activity: leadership styles quiz and group discussion",
+      "Case study: two youth-led initiatives that changed communities in Egypt or Yemen",
+      "Activity: Micro-Initiative Design — students plan a small action for their school this week",
+      "Presentations and peer encouragement",
+      "Closing reflection"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: من هو قائد تعجب به خارج السياسة؟ لماذا؟",
+      "النشاط: اختبار أنماط القيادة والنقاش الجماعي",
+      "دراسة حالة: مبادرتان شبابيتان غيّرتا مجتمعات في مصر أو اليمن",
+      "النشاط: تصميم مبادرة صغيرة — يخطط الطلاب لإجراء يمكنهم اتخاذه في مدرستهم هذا الأسبوع",
+      "العروض والتشجيع",
+      "التأمل الختامي"
+    ],
+    "activities": [
+      {
+        "name": "Leadership Styles Assessment",
+        "name_ar": "اختبار أنماط القيادة",
+        "description": "Students complete a short assessment to discover their leadership style and discuss how each style can be effective.",
+        "description_ar": "يكمل الطلاب اختباراً قصيراً لاكتشاف ما إذا كانوا يميلون نحو القيادة الديمقراطية أو التوجيهية أو التدريبية أو الخادمة، ثم يناقشون متى يكون كل أسلوب فعّالاً.",
+        "duration": "15 minutes",
+        "materials": ["printed assessment sheets"]
+      },
+      {
+        "name": "Micro-Initiative Design",
+        "name_ar": "تصميم مبادرة صغيرة",
+        "description": "Students design a small, realistic initiative they could launch in their school within one week.",
+        "description_ar": "يصمم الطلاب مبادرة صغيرة وواقعية يمكنهم إطلاقها في مدرستهم خلال أسبوع واحد — مسمّين المشكلة والإجراء ومن تستهدف وما يحتاجونه.",
+        "duration": "25 minutes",
+        "materials": ["planning worksheets", "pens"]
+      }
+    ],
+    "materials": ["Leadership assessment sheets", "Planning worksheets", "Pens", "Case study printouts"],
+    "materials_ar": ["أوراق اختبار القيادة المطبوعة", "أوراق عمل التخطيط", "أقلام", "مطبوعات دراسة الحالة"],
+    "reflectionQuestions": [
+      "What kind of leader do you want to be? How is that different from who you are today?",
+      "You do not need a title to lead. Where can you lead right now in your school or home?",
+      "Who in your community shows everyday leadership that others overlook?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما نوع القائد الذي تريد أن تكون؟ كيف يختلف ذلك عما أنت عليه اليوم؟",
+      "لا تحتاج إلى لقب لتقود. أين يمكنك أن تقود الآن في مدرستك أو بيتك؟",
+      "من في مجتمعك يُظهر قيادة يومية يغفلها الآخرون؟"
+    ]
+  },
+  {
+    "id": 7,
+    "week": 7,
+    "title": "Community Problem Identification",
+    "title_ar": "تحديد المشكلات المجتمعية",
+    "objective": "Help students observe, analyze, and clearly articulate a real problem in their community that they want to address.",
+    "objective_ar": "مساعدة الطلاب على ملاحظة وتحليل وصياغة مشكلة حقيقية في مجتمعهم يريدون معالجتها بوضوح.",
+    "sessionOutline": [
+      "Opening: community observation walk (if possible) or classroom reflection on the walk to school",
+      "Discussion: what problems do you notice in your daily life that others seem to accept?",
+      "Activity: Community Problem Map in groups — visual mapping of issues by theme",
+      "Mini-lesson: how to frame a problem statement clearly (who, what, why, evidence)",
+      "Group presentations: each group presents a problem statement",
+      "Peer feedback: what is clear? What needs more evidence?"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: جولة ملاحظة مجتمعية (إذا أمكن) أو تأمل طريق المجيء إلى المدرسة",
+      "نقاش: ما المشكلات التي تلاحظها في حياتك اليومية ويبدو أن الآخرين يقبلونها؟",
+      "النشاط: خريطة المشكلات المجتمعية في مجموعات — رسم بصري للمشكلات حسب الموضوع",
+      "درس قصير: كيف تصيغ عبارة مشكلة بوضوح (من، ماذا، لماذا، ما الدليل)",
+      "عروض المجموعات: كل مجموعة تقدم عبارة مشكلتها",
+      "تغذية راجعة من الأقران: ما الواضح؟ ما الذي يحتاج إلى مزيد من الأدلة؟"
+    ],
+    "activities": [
+      {
+        "name": "Community Problem Map",
+        "name_ar": "خريطة المشكلات المجتمعية",
+        "description": "Groups create a visual map of problems in their community categorized by theme: education, health, environment, safety, opportunity.",
+        "description_ar": "تصنع المجموعات خريطة بصرية كبيرة لمشكلات مجتمعها مصنّفة حسب الموضوع: التعليم والصحة والبيئة والأمن والفرص، وتُشير إلى المشكلات التي تؤثر على أكبر عدد من الناس.",
+        "duration": "25 minutes",
+        "materials": ["large paper or poster board", "markers", "sticky notes"]
+      },
+      {
+        "name": "Problem Statement Workshop",
+        "name_ar": "ورشة صياغة المشكلة",
+        "description": "Each group writes a clear problem statement: who is affected, what exactly happens, why it matters, and what evidence supports it.",
+        "description_ar": "تكتب كل مجموعة عبارة مشكلة واضحة: من المتأثر؟ وماذا يحدث بالضبط؟ ولماذا يهم؟ وما الأدلة على ذلك؟ ثم تقدم مجموعات الأقران اقتراحاً واحداً للتحسين.",
+        "duration": "20 minutes",
+        "materials": ["problem statement templates", "pens"]
+      }
+    ],
+    "materials": ["Large paper or poster board", "Markers", "Sticky notes", "Problem statement templates"],
+    "materials_ar": ["ورق كبير أو لوح بوستر", "أقلام", "ملاحظات لاصقة", "نماذج صياغة المشكلة"],
+    "reflectionQuestions": [
+      "What problem affects the most people in your community who are least able to speak up?",
+      "Who is most impacted by the problem your group chose?",
+      "What evidence — stories, numbers, observations — supports the existence of this problem?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما المشكلة التي تؤثر على أكبر عدد من الناس الأقل قدرة على الكلام في مجتمعك؟",
+      "من هو الأكثر تضرراً من المشكلة التي اختارتها مجموعتك؟",
+      "ما الأدلة — قصص أو أرقام أو ملاحظات — التي تؤكد وجود هذه المشكلة؟"
+    ]
+  },
+  {
+    "id": 8,
+    "week": 8,
+    "title": "Student-Led Community Solution Project",
+    "title_ar": "مشروع الحل المجتمعي بقيادة الطلاب",
+    "objective": "Students design, pitch, and present a community solution project, applying all skills developed across the 8 weeks.",
+    "objective_ar": "يصمم الطلاب ويقدمون مشروع حل مجتمعي، مطبّقين جميع المهارات التي طوّروها خلال الثمانية أسابيع.",
+    "sessionOutline": [
+      "Opening: celebration circle — each student names one skill they built this term",
+      "Presentations: each group delivers their community solution pitch (5 minutes each)",
+      "Pitch format: problem → solution → team roles → steps → expected impact",
+      "Peer and teacher feedback using a simple scoring card",
+      "Certificate presentation and class celebration",
+      "Closing circle: one thing I carry forward"
+    ],
+    "sessionOutline_ar": [
+      "الافتتاح: دائرة الاحتفال — كل طالب يسمي مهارة واحدة بناها هذا الفصل",
+      "العروض: كل مجموعة تقدم مشروع حلها المجتمعي (5 دقائق لكل مجموعة)",
+      "تنسيق العرض: المشكلة → الحل → أدوار الفريق → الخطوات → الأثر المتوقع",
+      "التغذية الراجعة من الأقران والمعلم باستخدام بطاقة تقييم بسيطة",
+      "توزيع شهادات الإتمام والاحتفال",
+      "الدائرة الختامية: شيء أحمله معي"
+    ],
+    "activities": [
+      {
+        "name": "Community Solution Pitch",
+        "name_ar": "عرض الحل المجتمعي",
+        "description": "Each group delivers a 5-minute pitch of their community solution, including the problem, solution, team roles, action steps, and expected impact.",
+        "description_ar": "تقدم كل مجموعة عرضاً لمدة 5 دقائق لمشروع حلها، متضمناً المشكلة والحل المقترح وأدوار الفريق والخطوات التنفيذية والأثر المتوقع على المجتمع.",
+        "duration": "40 minutes",
+        "materials": ["poster boards", "markers", "pitch structure template", "timer"]
+      },
+      {
+        "name": "Skills Reflection Gallery",
+        "name_ar": "معرض تأمل المهارات",
+        "description": "Students write on sticky notes one key learning from each week and place them on a class wall gallery.",
+        "description_ar": "يكتب الطلاب على ملاحظات لاصقة تعلّماً رئيسياً واحداً من كل أسبوع ويضعونها على جدار الفصل لصنع معرض نمو جماعي.",
+        "duration": "15 minutes",
+        "materials": ["colored sticky notes", "markers", "wall space"]
+      }
+    ],
+    "materials": ["Poster boards", "Markers", "Pitch templates", "Sticky notes", "Printable completion certificates"],
+    "materials_ar": ["لوحات إعلانية", "أقلام", "نماذج هيكل العرض", "ملاحظات لاصقة", "شهادات إتمام قابلة للطباعة"],
+    "reflectionQuestions": [
+      "What is the most important skill you developed across these 8 weeks?",
+      "What will you do differently in your school or community because of this program?",
+      "What is one message you want to share with the next group of students who go through Forsa?"
+    ],
+    "reflectionQuestions_ar": [
+      "ما أهم مهارة طوّرتها خلال هذه الثمانية أسابيع؟",
+      "ما الذي ستفعله بشكل مختلف في مدرستك أو مجتمعك بسبب هذا البرنامج؟",
+      "ما الرسالة التي تريد مشاركتها مع المجموعة التالية من الطلاب الذين سيمرون ببرنامج فرصة؟"
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Effective Communication Skills",
+    "category": "communication",
+    "provider": "Coursera",
+    "description": "Master the art of clear and confident communication in personal and professional settings. Learn to articulate ideas, listen actively, and adapt your message to different audiences.",
+    "level": "beginner",
+    "language": "English",
+    "link": "https://www.coursera.org/learn/wharton-communication-skills",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 2,
+    "title": "Public Speaking and Presentation Skills",
+    "category": "public speaking",
+    "provider": "edX",
+    "description": "Overcome stage fright and develop powerful presentation skills. Practice storytelling, voice projection, and audience engagement techniques used by the world's best speakers.",
+    "level": "beginner",
+    "language": "English",
+    "link": "https://www.edx.org/course/public-speaking",
+    "duration": "6 weeks"
+  },
+  {
+    "id": 3,
+    "title": "Leadership Fundamentals",
+    "category": "leadership",
+    "provider": "LinkedIn Learning",
+    "description": "Develop your leadership style, learn how to motivate teams, and build the skills needed to inspire others toward a common goal — whether you have a formal title or not.",
+    "level": "intermediate",
+    "language": "English",
+    "link": "https://www.linkedin.com/learning/leadership-foundations",
+    "duration": "5 weeks"
+  },
+  {
+    "id": 4,
+    "title": "Teamwork and Collaborative Skills",
+    "category": "teamwork",
+    "provider": "FutureLearn",
+    "description": "Learn how to work effectively in teams, resolve conflicts constructively, understand different team roles, and contribute positively to group goals.",
+    "level": "beginner",
+    "language": "English",
+    "link": "https://www.futurelearn.com/courses/collaboration",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 5,
+    "title": "Critical Thinking and Problem Solving",
+    "category": "critical thinking",
+    "provider": "Coursera",
+    "description": "Sharpen your analytical thinking, learn structured approaches to problem solving, and develop evidence-based reasoning skills that apply to every field and situation.",
+    "level": "intermediate",
+    "language": "English",
+    "link": "https://www.coursera.org/learn/critical-thinking-skills",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 6,
+    "title": "Creative Thinking and Innovation",
+    "category": "creativity",
+    "provider": "edX",
+    "description": "Unlock your creative potential through design thinking, brainstorming techniques, and innovative problem-solving frameworks used by leading companies and changemakers.",
+    "level": "beginner",
+    "language": "English",
+    "link": "https://www.edx.org/course/creative-thinking-techniques",
+    "duration": "4 weeks"
+  },
+  {
+    "id": 7,
+    "title": "مهارات حل المشكلات للشباب",
+    "category": "problem solving",
+    "provider": "إدراك",
+    "description": "دورة عربية متكاملة في مهارات حل المشكلات والتفكير المنطقي، مصممة خصيصاً للشباب العربي لتطوير قدراتهم التحليلية ومواجهة التحديات اليومية.",
+    "level": "beginner",
+    "language": "Arabic",
+    "link": "https://www.edraak.org/courses",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 8,
+    "title": "Building Self-Confidence",
+    "category": "confidence",
+    "provider": "Udemy",
+    "description": "Build unshakeable self-confidence and a positive self-image. Learn practical techniques to overcome self-doubt, speak up in groups, and present yourself with assurance.",
+    "level": "beginner",
+    "language": "Arabic",
+    "link": "https://www.udemy.com/course/self-confidence-arabic",
+    "duration": "3 weeks"
+  },
+  {
+    "id": 9,
+    "title": "Career Readiness and Professional Skills",
+    "category": "career readiness",
+    "provider": "LinkedIn Learning",
+    "description": "Prepare for the job market with resume writing, interview skills, professional networking, and workplace communication strategies that employers actually look for.",
+    "level": "intermediate",
+    "language": "English",
+    "link": "https://www.linkedin.com/learning/career-essentials",
+    "duration": "5 weeks"
+  },
+  {
+    "id": 10,
+    "title": "Active Listening and Emotional Intelligence",
+    "category": "communication",
+    "provider": "Coursera",
+    "description": "Develop deep listening skills and emotional intelligence to build stronger relationships, resolve conflicts, and communicate with empathy and clarity in any situation.",
+    "level": "beginner",
+    "language": "English",
+    "link": "https://www.coursera.org/learn/emotional-intelligence-eq",
+    "duration": "4 weeks"
+  }
+]

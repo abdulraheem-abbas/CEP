@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "UNICEF Egypt",
+    "type": "International Organization",
+    "focus": ["youth development", "education", "child rights"],
+    "description": "UNICEF works in Egypt to protect children's rights and ensure access to quality education and development opportunities for all children and young people.",
+    "contact": "egypt@unicef.org",
+    "website": "https://www.unicef.org/egypt",
+    "country": "Egypt"
+  },
+  {
+    "id": 2,
+    "name": "British Council Egypt",
+    "type": "Cultural & Educational Organization",
+    "focus": ["education", "skills development", "cultural exchange"],
+    "description": "The British Council builds connections and opportunities through arts, culture, education, and English language programs across Egypt and the Arab world.",
+    "contact": "enquiries.egypt@britishcouncil.org",
+    "website": "https://www.britishcouncil.org/egypt",
+    "country": "Egypt"
+  },
+  {
+    "id": 3,
+    "name": "INJAZ Egypt",
+    "type": "Local NGO",
+    "focus": ["entrepreneurship", "youth employment", "business skills"],
+    "description": "INJAZ Egypt is a youth development NGO that inspires and prepares young Egyptians to succeed in a global economy through entrepreneurship and work-readiness education.",
+    "contact": "info@injaz-egypt.org",
+    "website": "https://injaz-egypt.org",
+    "country": "Egypt"
+  },
+  {
+    "id": 4,
+    "name": "Mercy Corps Yemen",
+    "type": "International Humanitarian Organization",
+    "focus": ["humanitarian aid", "youth development", "livelihoods"],
+    "description": "Mercy Corps works in Yemen to provide life-saving assistance and build foundations for sustainable peace and development, with strong programming for Yemeni youth.",
+    "contact": "yemen@mercycorps.org",
+    "website": "https://www.mercycorps.org/where-we-work/yemen",
+    "country": "Yemen"
+  },
+  {
+    "id": 5,
+    "name": "UNDP Egypt",
+    "type": "United Nations Agency",
+    "focus": ["sustainable development", "youth empowerment", "governance"],
+    "description": "UNDP Egypt partners with government and civil society to advance sustainable development, youth empowerment, and gender equality across Egypt.",
+    "contact": "registry.eg@undp.org",
+    "website": "https://www.undp.org/egypt",
+    "country": "Egypt"
+  },
+  {
+    "id": 6,
+    "name": "Sharek Youth Forum",
+    "type": "Regional Youth Network",
+    "focus": ["youth participation", "advocacy", "civic engagement"],
+    "description": "Sharek (Arabic for 'participate') is a regional youth network supporting young people across the Arab world in advocacy, civic participation, and community leadership initiatives.",
+    "contact": "info@sharekyouth.org",
+    "website": "https://sharekyouth.org",
+    "country": "Regional (MENA)"
+  }
+]
