@@ -1,4 +1,17 @@
 {
+  "experimentalServices": {
+    "web": {
+      "entrypoint": "frontend",
+      "routePrefix": "/",
+      "framework": "vite"
+    },
+    "api": {
+      "entrypoint": "api/index.js",
+      "routePrefix": "/api",
+      "framework": "express",
+      "includeFiles": "backend/**"
+    }
+  },
   "installCommand": "npm install && npm install --prefix backend && npm install --prefix frontend",
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "frontend/dist",
