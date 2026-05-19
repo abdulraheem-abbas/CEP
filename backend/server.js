@@ -52,6 +52,14 @@ app.use(['/api/opportunities', '/opportunities'], opportunitiesRouter)
 app.use(['/api/curriculum', '/curriculum'], curriculumRouter)
 app.use(['/api/organizations', '/organizations'], organizationsRouter)
 
+app.get(['/api/health', '/health'], (req, res) => {
+  res.json({
+    ok: true,
+    service: 'forsa-backend',
+    gemini: geminiAvailable,
+  })
+})
+
 // --- Gemini: Verification ---
 async function analyzeWithGemini(text, url) {
   const prompt = `You are an AI assistant helping youth in Egypt and Yemen (ages 13-25) verify whether an opportunity — scholarship, competition, fellowship, program, or internship — is legitimate and safe.
