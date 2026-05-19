@@ -46,10 +46,11 @@ const aiLimiter = rateLimit({
 })
 
 // --- Routes ---
-app.use('/api/courses', coursesRouter)
-app.use('/api/opportunities', opportunitiesRouter)
-app.use('/api/curriculum', curriculumRouter)
-app.use('/api/organizations', organizationsRouter)
+// Vercel Services may pass backend requests with or without the /api prefix.
+app.use(['/api/courses', '/courses'], coursesRouter)
+app.use(['/api/opportunities', '/opportunities'], opportunitiesRouter)
+app.use(['/api/curriculum', '/curriculum'], curriculumRouter)
+app.use(['/api/organizations', '/organizations'], organizationsRouter)
 
 // --- Gemini: Verification ---
 async function analyzeWithGemini(text, url) {
@@ -222,7 +223,7 @@ function ruleBasedVerify(text = '', url = '') {
 }
 
 // --- /api/verify ---
-app.post('/api/verify', aiLimiter, async (req, res) => {
+app.post(['/api/verify', '/verify'], aiLimiter, async (req, res) => {
   const { text = '', url = '' } = req.body
   if (!text.trim() && !url.trim()) {
     return res.status(400).json({ error: 'Provide text or URL to analyze.' })
@@ -238,7 +239,7 @@ app.post('/api/verify', aiLimiter, async (req, res) => {
 })
 
 // --- /api/chat ---
-app.post('/api/chat', aiLimiter, async (req, res) => {
+app.post(['/api/chat', '/chat'], aiLimiter, async (req, res) => {
   const { message = '', history = [], lang = 'en' } = req.body
   if (!message.trim()) return res.status(400).json({ error: 'Message is required.' })
 
@@ -276,7 +277,7 @@ app.post('/api/chat', aiLimiter, async (req, res) => {
 })
 
 // --- /api/summarize ---
-app.post('/api/summarize', async (req, res) => {
+app.post(['/api/summarize', '/summarize'], async (req, res) => {
   const { type, item, lang = 'en' } = req.body
   const isAr = lang === 'ar'
 
