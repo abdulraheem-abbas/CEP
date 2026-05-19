@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import CourseCard from '../components/CourseCard'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 const CATEGORIES = ['all', 'communication', 'leadership', 'teamwork', 'confidence', 'critical thinking', 'creativity', 'problem solving', 'public speaking', 'career readiness']
 const LEVELS = ['all', 'beginner', 'intermediate', 'advanced']
@@ -17,7 +18,7 @@ export default function Courses() {
   const [language, setLanguage] = useState('all')
 
   useEffect(() => {
-    fetch('/api/courses')
+    fetch(apiUrl('/api/courses'))
       .then(r => r.json())
       .then(data => { setCourses(data); setLoading(false) })
       .catch(() => { setError(t('common.backendError')); setLoading(false) })

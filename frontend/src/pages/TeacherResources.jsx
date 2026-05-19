@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 const WEEK_COLORS = [
   'border-sky-200 bg-sky-50', 'border-emerald-200 bg-emerald-50',
@@ -18,7 +19,7 @@ export default function TeacherResources() {
   const [openToolkit, setOpenToolkit] = useState(null)
 
   useEffect(() => {
-    fetch('/api/curriculum')
+    fetch(apiUrl('/api/curriculum'))
       .then(r => r.json())
       .then(data => { setCurriculum(data); setLoading(false) })
       .catch(() => { setError(t('teachers.backendError')); setLoading(false) })

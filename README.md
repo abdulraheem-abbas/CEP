@@ -182,6 +182,27 @@ GEMINI_API_KEY=your_key_here
 
 Without `GEMINI_API_KEY`, the deployed app uses the built-in rule-based fallback.
 
+If the backend is deployed separately, add this variable to the Vercel frontend project:
+
+```bash
+VITE_API_BASE_URL=https://your-backend-url.example.com
+```
+
+Do not include a trailing slash. The frontend will call endpoints such as `${VITE_API_BASE_URL}/api/courses`.
+
+### Reliable Separate Backend Deployment
+
+If Vercel Services does not deploy the backend correctly, deploy the backend as its own web service on Render, Railway, or a similar Node host:
+
+| Setting | Value |
+|---------|-------|
+| Root Directory | `backend` |
+| Build Command | `npm install` |
+| Start Command | `npm start` |
+| Health Check Path | `/api/health` |
+
+After the backend deploys, copy its public URL and set `VITE_API_BASE_URL` in the Vercel frontend project to that URL. Redeploy the frontend.
+
 ### Data Storage Note
 
 The JSON files in `backend/data/` are bundled as starter data. On Vercel, admin edits are stored in temporary function storage so the UI does not crash, but those edits are not durable across cold starts or redeploys. Use a database such as Postgres, SQLite/Turso, or Supabase for production persistence.

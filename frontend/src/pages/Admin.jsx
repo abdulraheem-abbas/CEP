@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 const TABS = ['courses', 'opportunities', 'curriculum']
 
@@ -104,9 +105,9 @@ export default function Admin() {
     setLoading(true)
     try {
       const [c, o, cu] = await Promise.all([
-        fetch('/api/courses').then(r => r.json()),
-        fetch('/api/opportunities').then(r => r.json()),
-        fetch('/api/curriculum').then(r => r.json()),
+        fetch(apiUrl('/api/courses')).then(r => r.json()),
+        fetch(apiUrl('/api/opportunities')).then(r => r.json()),
+        fetch(apiUrl('/api/curriculum')).then(r => r.json()),
       ])
       setCourses(c); setOpportunities(o); setCurriculum(cu); setError(null)
     } catch {
@@ -120,18 +121,18 @@ export default function Admin() {
 
   const handleSave = async (item) => {
     const method = item.id ? 'PUT' : 'POST'
-    const url = item.id ? `/api/${tab}/${item.id}` : `/api/${tab}`
+    const url = item.id ? apiUrl(`/api/${tab}/${item.id}`) : apiUrl(`/api/${tab}`)
     await fetch(url, { method, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(item) })
     setModal(null); fetchAll()
   }
 
   const handleDelete = async (id) => {
-    await fetch(`/api/${tab}/${id}`, { method: 'DELETE' })
+    await fetch(apiUrl(`/api/${tab}/${id}`), { method: 'DELETE' })
     setDeleteConfirm(null); fetchAll()
   }
 
   const handleStatusChange = async (opp, newStatus) => {
-    await fetch(`/api/opportunities/${opp.id}`, {
+    await fetch(apiUrl(`/api/opportunities/${opp.id}`), {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...opp, verificationStatus: newStatus }),

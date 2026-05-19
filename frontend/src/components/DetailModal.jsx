@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 const categoryStyle = {
   'communication':   'bg-sky-100 text-sky-700',
@@ -41,7 +42,7 @@ export default function DetailModal({ item, type, onClose }) {
     requestAnimationFrame(() => setVisible(true))
 
     // Fetch AI summary
-    fetch('/api/summarize', {
+    fetch(apiUrl('/api/summarize'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ type, item, lang }),

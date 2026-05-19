@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import OpportunityCard from '../components/OpportunityCard'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 const TYPES = ['all', 'scholarship', 'conference', 'competition', 'training', 'volunteering', 'internship', 'youth program', 'workshop', 'fellowship']
 const COUNTRIES = ['all', 'Egypt', 'Yemen', 'Online', 'United Kingdom']
@@ -18,7 +19,7 @@ export default function Opportunities() {
   const [verifiedOnly, setVerifiedOnly] = useState(false)
 
   useEffect(() => {
-    fetch('/api/opportunities')
+    fetch(apiUrl('/api/opportunities'))
       .then(r => r.json())
       .then(data => { setItems(data); setLoading(false) })
       .catch(() => { setError(t('common.backendError')); setLoading(false) })

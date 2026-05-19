@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../contexts/LanguageContext'
+import { apiUrl } from '../lib/api'
 
 // ── Static data cache (pre-fetched, updated from API) ──────────────────────
 const FALLBACK_COURSES = [
@@ -214,8 +215,8 @@ export default function Chatbot() {
 
   // Pre-load fresh data from API
   useEffect(() => {
-    fetch('/api/courses').then(r => r.json()).then(setCourses).catch(() => {})
-    fetch('/api/opportunities').then(r => r.json()).then(setOpps).catch(() => {})
+    fetch(apiUrl('/api/courses')).then(r => r.json()).then(setCourses).catch(() => {})
+    fetch(apiUrl('/api/opportunities')).then(r => r.json()).then(setOpps).catch(() => {})
   }, [])
 
   // Reset on language change
@@ -254,7 +255,7 @@ export default function Chatbot() {
         .slice(-8)
         .map(m => ({ from: m.from, text: m.text }))
 
-      const res = await fetch('/api/chat', {
+      const res = await fetch(apiUrl('/api/chat'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: trimmed, history, lang }),
