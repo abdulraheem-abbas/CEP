@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom'
 import { useLanguage } from '../contexts/LanguageContext'
 
 export default function Footer() {
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
+  const isAr = lang === 'ar'
 
   return (
     <footer className="bg-[#0f2347] text-white mt-auto">
@@ -33,25 +34,26 @@ export default function Footer() {
           {/* Platform */}
           <div>
             <h4 className="font-bold text-xs uppercase tracking-wider text-amber-400 mb-4">
-              {t('nav.home') === 'الرئيسية' ? 'المنصة' : 'Platform'}
+              {isAr ? 'المنصة' : 'Platform'}
             </h4>
             <ul className="space-y-2 text-sm text-blue-300">
-              <li><Link to="/courses" className="hover:text-white transition-colors">{t('nav.courses')}</Link></li>
+              <li><Link to="/curriculum" className="hover:text-white transition-colors">{t('nav.curriculum')}</Link></li>
+              <li><Link to="/skills" className="hover:text-white transition-colors">{t('nav.skills')}</Link></li>
               <li><Link to="/opportunities" className="hover:text-white transition-colors">{t('nav.opportunities')}</Link></li>
               <li><Link to="/verify" className="hover:text-white transition-colors">{t('nav.verify')}</Link></li>
-              <li><Link to="/chatbot" className="hover:text-white transition-colors">{t('nav.chatbot')}</Link></li>
+              <li><Link to="/rafiq" className="hover:text-white transition-colors">{t('nav.rafiq')} 🦉</Link></li>
             </ul>
           </div>
 
-          {/* Teachers */}
+          {/* Learn */}
           <div>
             <h4 className="font-bold text-xs uppercase tracking-wider text-amber-400 mb-4">
-              {t('nav.teachers')}
+              {isAr ? 'التعلم' : 'Learn'}
             </h4>
             <ul className="space-y-2 text-sm text-blue-300">
-              <li><Link to="/teachers" className="hover:text-white transition-colors">{t('teachers.curriculumTitle')}</Link></li>
-              <li><Link to="/teachers" className="hover:text-white transition-colors">{t('teachers.toolkitTitle')}</Link></li>
-              <li><Link to="/teachers" className="hover:text-white transition-colors">{t('teachers.sessionOutline')}</Link></li>
+              <li><Link to="/first-curriculum" className="hover:text-white transition-colors">{t('nav.firstCurriculum')}</Link></li>
+              <li><Link to="/teachers" className="hover:text-white transition-colors">{t('nav.teachers')}</Link></li>
+              <li><Link to="/courses" className="hover:text-white transition-colors">{isAr ? 'كل الدورات' : 'All Courses'}</Link></li>
             </ul>
           </div>
 
@@ -70,7 +72,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-blue-500">
           <p>© 2025 Forsa Platform · A prototype for public school education equity.</p>
-          <p>Free · Open · Prototype v2.0 · Powered by Gemini AI</p>
+          <p>Free · Open · Prototype v2.0 · Powered by Gemini AI · Rafiq 🦉</p>
         </div>
       </div>
     </footer>
